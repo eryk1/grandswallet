@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Me cayo el 20!</string>
+
+    <!-- usar en caso de acento o ñ: -->
+    <!--Á	\u00C1	A con acento
+        á	\u00E1	a con acento
+        É	\u00C9	E con acento
+        é	\u00E9	e con acento
+        Í	\u00CD	I con acento
+        í	\u00ED	i con acento
+        Ó	\u00D3	O con acento
+        ó	\u00F3	o con acento
+        Ú	\u00DA	U con acento
+        ú	\u00FA	u con acento
+        Ü	\u00DC	U con dieress
+        ü	\u00FC	u con dieresis
+        ñ 	\u00F1	n con tilde
+        Ñ   \u00D1  N con tilde
+        *   \u002A  * asterisco
+        (   \u0028   ( apertura
+        )   \u0029   ) cierre
+        -   \u2010  - guion
+        ¿   \u00BF  ¿ apertura
+        ?   \u003F  ? cierre
+        /   \u002D  / diagonal-->
+    <!-- usar en caso de acento o ñ: -->
+
+    <!--  terminos generales  -->
+    <string name="empty" />
+    <string name="enviar">Enviar</string>
+    <string name="salir">Salir</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="seleccionar">--Seleccionar--</string>
+    <string name="regresar">Regresar</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="buscar"></string>
+    <!--  terminos generales  -->
+
+    <!--Login-->
+    <string name="correo_electronico">Correo electron\u00EDco</string>
+    <string name="contrasenna">Contrase\u00F1a</string>
+    <string name="olvidaste_tu_contrasenna">\u00BFOlvidaste t\u00FA contrase\u00F1a\u003F</string>
+    <string name="aviso_usuario_contrasenna">\u002ALos datos de usuario y contrase\u00F1a son sensibles a may\u00FAsculas y min\u00FAsculas</string>
+    <string name="iniciar_sesion">INICIAR SESI\u00D3N</string>
+    <string name="entrar_con">Entar con</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google +</string>
+    <string name="nuevo_registrate">¿Eres nuevo? \t !Reg\u00EDstrate¡</string>
+    <!--Login-->
+
+    <!--avisoPrivacidad-->
+    <string name="aviso_privacidad">AVISO DE PRIVACIDAD</string>
+    <string name="aceptar">Aceptar</string>
+    <!--avisoPrivacidad-->
+
+    <!--   registroN2   -->
+    <string name="enrolamiento_n2">Enrolamiento N2</string>
+    <string name="datos_de_tarjeta">Datos de Tarjeta</string>
+    <string name="folio">Folio *</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="tipo_de_identificacion">Tipo de identificaci\u00F3n *</string>
+    <string name="ife_ine">IFE/INE</string>
+    <string name="pasaporte">Pasaporte</string>
+    <string name="numero_de_identificacion_clave_de_elector">
+N\u00FAmero de identificaci\u00F3n *\nClave de elector
+</string>
+    <string name="numero_de_identificacion_pasaporte">
+N\u00FAmero de identificaci\u00F3n *\nPasaporte No.
+</string>
+    <string name="primer_nombre">Primer nombre *</string>
+    <string name="segundo_nombre">Segundo nombre</string>
+    <string name="apellido_paterno">Apellido Paterno *</string>
+    <string name="apellido_materno">Apellido Materno *</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento *</string>
+    <string name="nacionalidad">Nacionalidad *</string>
+    <string name="pais_nacimiento">Pa\u00EDs nacimiento *</string>
+    <string name="lugar_nacimimiento">Lugar de Nacimiento *</string>
+    <string name="genero">G\u00E9nero *</string>
+    <string name="deseas_notificaciones">¿Deseas notificaciones?</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="celular">Celular</string>
+    <string name="casa">Casa</string>
+    <string name="negocio">Negocio</string>
+    <string name="telefono_de_contacto">Tel\u00E9fono de contacto *\n(10 dígitos)</string>
+    <string name="codigo_postal">C\u00F3digo Postal *</string>
+    <string name="estado">Estado *</string>
+    <string name="delegacion_municipio">Delegaci\u00F3n / Municipio *</string>
+    <string name="ciudad">Ciudad *</string>
+    <string name="colonia">Colonia *</string>
+    <string name="calle">Calle *</string>
+    <string name="numero_exterior">N\u00FAmero Exterior *</string>
+    <string name="numero_interior">N\u00FAmero Interior</string>
+    <string name="direccion">Direcci\u00F3n</string>
+    <string name="activacion_n2">Activaci\u00F3n N2</string>
+    <!--   registroN2   -->
+
+    <string-array name="entidad_federativa">
+        <item>-Entidad-</item>
+        <item>AGUASCALIENTES</item>
+        <item>BAJA CALIFORNIA</item>
+        <item>BAJA CALIFORNIA SUR</item>
+        <item>CAMPECHE</item>
+        <item>CDMX</item>
+        <item>COAHUILA</item>
+        <item>COLIMA</item>
+        <item>CHIAPAS</item>
+        <item>CHIHUAHUA</item>
+        <item>DURANGO</item>
+        <item>GUANAJUATO</item>
+        <item>GUERRERO</item>
+        <item>HIDALGO</item>
+        <item>JALISCO</item>
+        <item>M\u00C9XICO</item>
+        <item>MICHOAC\u00C1N</item>
+        <item>MORELOS</item>
+        <item>NAYARIT</item>
+        <item>NUEVO LE\u00D3N</item>
+        <item>OAXACA</item>
+        <item>PUEBLA</item>
+        <item>QUER\u00C9TARO</item>
+        <item>QUINTANA ROO</item>
+        <item>SAN LUIS POTOS\u00CD</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+        <item>TABASCO</item>
+        <item>TAMAULIPAS</item>
+        <item>TLAXCALA</item>
+        <item>VERACRUZ</item>
+        <item>YUCAT\u00C1N</item>
+        <item>ZACATECAS</item>
+        <item>EXTRANJERO</item>
+    </string-array>
+    <string-array name="genero">
+        <item>-Genero-</item>
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+</resources>

@@ -1,0 +1,277 @@
+{
+	"id": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+	"name": "Grand's Wallet",
+	"description": "",
+	"order": [
+		"4cc708b6-393b-df62-f205-dcc2f1a1398e",
+		"474ce9ee-cc9f-981a-25d0-878d0d57bf1b",
+		"745e0588-a825-6f40-a546-73b37d00d3bd",
+		"9024bcc8-f8a5-aa3f-e433-03aa2b00279a",
+		"9f157d14-20a4-5a6f-1b12-f8d8c9894f2b",
+		"ea6d7b12-1534-8222-5e81-e7b418fcfe42",
+		"daebf831-556f-a906-d775-c9efa6fd00df",
+		"a4800453-805a-649e-3d90-1d25dd74ecb6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517072769741,
+	"owner": "1153182",
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "474ce9ee-cc9f-981a-25d0-878d0d57bf1b",
+			"headers": "Authorization: Token {{token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/customers/verify",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"auth": null,
+			"time": 1517089453912,
+			"name": "Customer Verify",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n\t\"code\": \"714548776329\"\n}"
+		},
+		{
+			"id": "4cc708b6-393b-df62-f205-dcc2f1a1398e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/customers/signup",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"auth": null,
+			"time": 1517085841566,
+			"name": "Customer Signup",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n\t\"first_name\": \"Adan\",\n\t\"middle_name\": \"Miguel\",\n\t\"last_name_paternal\": \"Sanchez\",\n\t\"last_name_maternal\": \"Albert\",\n\t\"date_of_birth\": \"1991-11-03\",\n\t\"person_id\": \"SAAA881103HDFNLD07\",\n\t\"elector_id\": \"SNALAD88110315H800\",\n\t\"email_address\": \"hola@miguelsanchez.mx\",\n\t\"phone_number\": \"5530256809\",\n\t\"password\": \"holamundo\",\n\t\"confirm_password\": \"holamundo\",\n\t\"address\": {\n\t\t\"street\": \"Bartolome R. Salido\",\n\t\t\"outdoor_number\": 186,\n\t\t\"interior_number\": 304,\n\t\t\"neighborhood\": \"Vertiz Narvarte\",\n\t\t\"municipality\": \"Benito Juarez\",\n\t\t\"city\": \"Benito Juarez\",\n\t\t\"state\": \"Ciudad de Mexico\",\n\t\t\"country\": \"MX\",\n\t\t\"postal_code\": \"03600\"\n\t}\n}"
+		},
+		{
+			"id": "745e0588-a825-6f40-a546-73b37d00d3bd",
+			"headers": "Authorization: Token {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/customers/documents",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "document_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517085759173,
+			"name": "Customer Document",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "9024bcc8-f8a5-aa3f-e433-03aa2b00279a",
+			"headers": "Authorization: Token {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/customers/profile",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517085791851,
+			"name": "Customer Profile",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "9f157d14-20a4-5a6f-1b12-f8d8c9894f2b",
+			"headers": "Authorization: Token {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/customers/accounts",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517085798805,
+			"name": "Customer Accounts",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "a4800453-805a-649e-3d90-1d25dd74ecb6",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"events": [],
+			"auth": null,
+			"method": "GET",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"data": null,
+			"dataMode": "params",
+			"name": "Exchange",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517091747245,
+			"version": 2,
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "daebf831-556f-a906-d775-c9efa6fd00df",
+			"headers": "Authorization: Token {{token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/exchange/codes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"events": [],
+			"auth": null,
+			"method": "POST",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Customer Create Code",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517089443145,
+			"version": 2,
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n\t\"amount\": 500,\n\t\"reference\": \"Despensa\",\n\t\"phone_number\": \"5530256809\"\n}"
+		},
+		{
+			"id": "ea6d7b12-1534-8222-5e81-e7b418fcfe42",
+			"headers": "Authorization: Token {{token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token {{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/exchange/codes",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"auth": null,
+			"time": 1517089445868,
+			"name": "Customer Codes",
+			"description": "",
+			"collectionId": "73de6137-7ffd-7814-81fc-7f0fda26692e",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n\t\"amount\": 500,\n\t\"reference\": \"Despensa\",\n\t\"phone_number\": \"5530256809\"\n}"
+		}
+	]
+}
